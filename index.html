@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fashion Hub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Trendy Clothes for Everyone</h2>
+        <button onclick="showAlert()">Shop Now</button>
+    </section>
+
+    <section class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Shirt">
+            <h3>Casual Shirt</h3>
+            <p>$20</p>
+            <button onclick="addToCart('Casual Shirt')">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Jeans">
+            <h3>Blue Jeans</h3>
+            <p>$35</p>
+            <button onclick="addToCart('Blue Jeans')">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Jacket">
+            <h3>Leather Jacket</h3>
+            <p>$80</p>
+            <button onclick="addToCart('Leather Jacket')">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Fashion Hub</p>
+    </footer>
+
+    <script src="style.js"></script>
+</body>
+</html>
